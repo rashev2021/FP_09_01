@@ -140,13 +140,6 @@ void ZADANIE_3() {
                     count++;
                    cout << "| " << deys[i] << " |";
        
-                }
-                // с else код работает только на else не взирая на условие if/ не понимаю  почему
-             /*   else {
-                    cout << " нет";
-                    break;
-                }*/
-          
             }
            
             cout << endl;
