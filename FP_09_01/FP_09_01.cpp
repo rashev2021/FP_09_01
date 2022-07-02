@@ -120,7 +120,7 @@ void ZADANIE_3() {
             float summa = 0;
 
             cout << endl;
-            cout << " Общуя потраченная за неделю сумма составила: ";
+            cout << " Общая потраченная за неделю сумма составила: ";
             for (int i = 0; i < week; i++) {
                 summa += array[i];
             }
