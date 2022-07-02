@@ -139,16 +139,14 @@ void ZADANIE_3() {
                 if (array[i] >= 100) {
                     count++;
                     cout << "| " << deys[i] << " |";
-
                 }
-              
             }
            
             if (count >= 1) {
                 cout << endl;
                 cout << " Колличество дней: " << count << endl;
             }
-            else if (count < 1) {
+            else if (count == 0) {
                 cout << " Не было ни одного дня";
             }
             cout << endl;
