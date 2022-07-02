@@ -135,15 +135,22 @@ void ZADANIE_3() {
             cout << " Дни, в которые потраченная сумма составила более или 100 долларов: ";
 
             for (int i = 0; i < week; i++) {
-              
+
                 if (array[i] >= 100) {
                     count++;
-                   cout << "| " << deys[i] << " |";
-       
+                    cout << "| " << deys[i] << " |";
+
+                }
+              
             }
            
-            cout << endl;
-            cout << " Колличество дней: " << count << endl;
+            if (count >= 1) {
+                cout << endl;
+                cout << " Колличество дней: " << count << endl;
+            }
+            else if (count < 1) {
+                cout << " Не было ни одного дня";
+            }
             cout << endl;
            
             break;
@@ -177,10 +184,10 @@ int main()
     ZADANIE_2();
     */
 
-    // ЗАДАНИЕ 3
-    /*
+     //ЗАДАНИЕ 3
+    
      ZADANIE_3();
-    */
+    
   
     
    
